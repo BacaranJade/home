@@ -1,0 +1,95 @@
+body {
+    background-image: url("https://media1.tenor.com/m/ZXc1dVq9i6YAAAAC/red-anime.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-color: black;
+    color: white;
+    justify-items: center;  
+    font-family: Arial, sans-serif;
+    font-style: oblique;
+    
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 7%;
+    font-size: 50px;
+    color: white;
+}
+  #ABOUT img {
+    margin: 20px;
+    font-size: x-large;
+    height: auto;
+    width: 300px;
+    border-radius: 200px; 
+    transition: all 0.6s;
+  }
+
+  header {
+    font-size: 100%;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+  }
+
+  nav ul li a:hover {
+    border: none;
+    border-radius: 7px;
+    background-color: black;
+    cursor: pointer;
+  }
+  .Jade {
+    width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Bacaran h2 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+.Bacaran p {
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+.Bacaran {
+  width: 400px;
+}
+#ABOUT img:hover {
+  border: none;
+  border-radius: 100px;
+  background-color: black;
+  cursor: pointer;
+}

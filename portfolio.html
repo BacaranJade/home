@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="portfolio.css">
+  <script src="script.js"></script>
+</head>
+<body>         
+    <div class="container">
+  <header>
+    <div>
+    <nav>
+      <ul>
+        <li><a href="#ABOUT">About</a></li>
+        <li><a onclick="window.location.assign('MyGallery.html')">My Gallery</a></li>
+        <li><a onclick="window.location.assign('calcu.html')">Calculator</a></li>
+        <li><a onclick="window.location.replace('login.html')">Log Out</a></li>
+      </ul>
+    </nav>
+  </header>
+</div>
+<h1> Hi! Welcome to My Portfolio</h1>
+  <section id="ABOUT">
+    <div class="Jade">
+    <img src="https://scontent.fmnl7-2.fna.fbcdn.net/v/t39.30808-6/273811688_169041858783814_3146324542901826801_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=efb6e6&_nc_eui2=AeFgqowmutdikF8UanZpd4DiTmjpTNvSqCtOaOlM29KoK16z49hUsaPI2-dR-Eoo_Dw9nIvLxdOGR8lvk-_983CO&_nc_ohc=_p2WuJZ36OgAX8Tt6-b&_nc_ht=scontent.fmnl7-2.fna&oh=00_AfAUIaA5nsm9fUj2TunkdZWZqwlEyCjLWNIFlOq68JkfsA&oe=658908D3" onclick="fpage()">
+    <div class="Bacaran">
+    <h2>About Me</h2>
+    <p>Hi! Im Jade Bacaran, 21 years of age, I was Raised and Born in Cambuhawe, Balamban, Cebu in February 27th,2002.
+        I am now Currently living with my Uncle in San, Miguel, Cordova, Cebu.
+      I am Currently Studying at Cordova Public College, taking up the Course Bachelor of Science in Information Technology Major in Programming.
+    My Hobbies are playing Online Games and Watching Anime.</p>
+    </div>
+  </div>
+    <script>
+      function fpage() {
+        const url = 'https://www.facebook.com/profile.php?id=100070340021848';
+        window.open(url);
+
+      }
+    </script>
+</body>
+</html>
